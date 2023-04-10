@@ -1,0 +1,249 @@
+html body {
+  position: relative;
+  width: 100%;
+  height: 3225px;
+  background: rgba(21, 20, 20, 1);
+  left: 0px;
+  top: 0px;
+}
+
+.container_glavnaea {
+  position: absolute;
+  width: 100%;
+  height: 688px;
+  left: 0px;
+  top: 70px;
+  background-image: url(/fon/Nike\ 0.png);
+  background-size: cover;
+  color: #ffffff;
+  display: flex;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+}
+
+.conteiner-text {
+  position: relative;
+  margin-top: -750px;
+  left: 100px;
+  z-index: 3;
+}
+
+.ellips2 {
+  position: absolute;
+  width: 1500px;
+  height: 688px;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(0, 0, 0, 0.3) 10.94%,
+    rgba(255, 255, 255, 0) 70.42%
+  );
+  background-blend-mode: luminosity;
+  transform: rotate(180sdeg);
+}
+
+.conteiner_paneli {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.logoIm {
+  position: relative;
+  display: flex;
+  width: 150px;
+  height: 50px;
+  left: 40px;
+  top: 8px;
+  background-color: transparent;
+  border: transparent;
+  z-index: 2;
+
+  text-decoration: none;
+}
+
+.nazvanie {
+  position: relative;
+  top: 20px;
+  width: 35px;
+  height: 24px;
+  margin-top: -15px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  align-items: center;
+  text-align: right;
+  color: #b3b1b1;
+}
+
+.vanie {
+  position: relative;
+  left: 0px;
+  top: -10px;
+}
+
+.zagolovok {
+  position: relative;
+  top: 12px;
+  width: 100px;
+  height: 48px;
+  left: 45px;
+}
+
+.nav-item {
+  color: #ffffff;
+  text-decoration: none;
+  z-index: 2;
+}
+
+.nav-item:hover {
+  color: turquoise;
+  transition: 1s linear;
+}
+
+.navigatiea {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 310px;
+  height: 24px;
+  top: 30px;
+  left: -40px;
+
+  text-decoration-line: none;
+  text-decoration-color: floralwhite;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+
+  color: #ffffff;
+}
+
+.zagolovok {
+  position: absolute;
+  width: 1000px;
+  left: 67px;
+  top: 150px;
+}
+
+.zagolovok1 {
+  font-size: 53px;
+}
+
+.zagolovok2 {
+  font-size: 70px;
+}
+
+.liniea {
+  border: 10px;
+  background-color: rgb(255, 255, 255);
+  height: 5px;
+  width: 750px;
+}
+
+.flex-container {
+  position: absolute;
+  border: 2px dashed #b2b1b1;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  background: transparent;
+  background-color: rgba(21, 20, 20, 0.7);
+  width: 500px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #ffffffc7;
+}
+
+.otstup {
+  margin-left: 10px;
+  font-size: 30px;
+}
+
+.catalogi {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 758px;
+  margin-right: 50px;
+  background-image: url(/fon/fon2.png);
+  background-size: cover;
+  color: #ffffff;
+  display: flex;
+}
+
+.flex-container-catalog {
+  width: 25%;
+  height: 100vh;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.flex-container-text {
+  margin-left: 50px;
+  width: 250px;
+  height: 182px;
+  border: 2px dashed #b2b1b1;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  background: transparent;
+  background-color: rgba(21, 20, 20, 0.7);
+}
+
+.name-catalogi {
+  text-decoration: none;
+  color: #b2b1b1;
+  height: 36px;
+  font-size: 36px;
+  width: 220px;
+  margin-top: -20px;
+  margin-left: 20px;
+}
+
+.text-fon {
+  width: 370px;
+  height: 165px;
+  background: rgba(21, 20, 20, 0.7);
+  font-size: 28px;
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-container-sredni {
+  width: 25%;
+  height: 100vh;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.bason {
+  width: 300px;
+  height: 200px;
+}
+
+.fon-footwear {
+  position: absolute;
+  width: 373px;
+  height: 165px;
+  background: rgba(21, 20, 20, 0.7);
+}
